@@ -39,6 +39,17 @@
     line-height: 0rem;
     color: var(--theme-app-header-logo--color);
   }
+
+   .infos {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    line-height: 0rem;
+
+    align-self: flex-end; 
+  }
 }
 
 :host(.breakpoint-sm) {
